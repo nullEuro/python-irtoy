@@ -6,6 +6,8 @@ A command-line driver/tool for the USB IR-Toy, written in python.
 What you will need
 ==================
 
+An IR-Toy, obviously ;-) http://dangerousprototypes.com/docs/USB_IR_Toy_v2
+
  - Python >= 3.2
   > See http://www.python.org/download/releases/
   > Ubuntu: sudo apt-get install python3
