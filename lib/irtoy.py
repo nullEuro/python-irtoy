@@ -10,8 +10,8 @@ class AttrDict(dict):
         self.__dict__ = self
 
 commands = AttrDict(dict(
-	DataEnd=			 bytes.fromhex(u'ff ff'),
-	reset=			 bytes.fromhex(u'00 00 00 00 00'),
+	DataEnd=			 bytes.fromhex('ff ff'),
+	reset=			 bytes.fromhex('00 00 00 00 00'),
 	getFWVersion=	b'v',
 	
 	sample= AttrDict(dict( # sample mode commands
