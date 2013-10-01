@@ -104,6 +104,6 @@ Idle times and keystrokes are separated by **spaces**.
 
 ##Examples for Macros
 
-"press the button named '_power_', then hold the '_volumeUp_' button for one second,  then _wait two minutes_ and press the '_power_' button again using _tv_control.rcb_ as button map file"
+Task: "press the button named _'power'_, then hold the _'volumeUp'_ button for one second,  then _wait two minutes_ and press the _'power'_ button again using _tv_control.rcb_ as button map file"
  
     irtoy.py macro "power volumeUp:1_s .2_m power" tv_control.rcb
